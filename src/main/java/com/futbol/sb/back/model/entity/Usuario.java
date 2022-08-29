@@ -106,4 +106,10 @@ public class Usuario implements Serializable{
 		return serialVersionUID;
 	}
 
+	@Override
+	public String toString() {
+		return "Usuario [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", contrasena=" + contrasena
+				+ ", correo=" + correo + ", pais=" + pais + ", fechaCreacion=" + fechaCreacion + "]";
+	}
+
 }
